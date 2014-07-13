@@ -1,0 +1,282 @@
+
+
+
+.navbar-brand {
+	text-transform: uppercase;
+}
+
+/* PAGE settings START */
+.page_settings .panel-info {
+	width: 45%;
+	float: left;
+}
+
+.page_settings .panel-info:nth-child(odd) {
+	margin-right: 10%;
+}
+
+.page_settings .input-group {
+	margin-bottom: 10px;
+	margin-left: 20%;
+	width: 60%
+}
+
+.page_settings .input-group-addon {
+	width: 40%;
+}
+
+.page_settings .panel-primary .center-block {
+    text-align: center;
+}
+/* PAGE settings END */
+
+/* PAGE project START */
+td.good {
+	color: green;
+}
+
+td.bad {
+	color: red;
+}
+
+.navbar-default .navbar-nav>li>a.project-delete {
+	color: red;
+}
+
+body > div.container {
+    padding-bottom: 50px;
+}
+/* PAGE project END */
+
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+}
+
+.poweredText {
+    text-align: right;
+    line-height: 50px;
+    right: 10px;
+    position: relative;
+}
+
+#tcpLoadingAnimation {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#tcpLoadingAnimationText {
+    position: relative;
+    top: 50%;
+    margin: 0 auto 22px;
+    height: 22px;
+    text-align: center;
+    color: #FF9900;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#movingBallG {
+    position:relative;
+    margin: auto auto;
+    top: 50%;
+    width:256px;
+    height:20px;
+}
+
+.movingBallLineG {
+    position:absolute;
+    left:0px;
+    top:8px;
+    height:4px;
+    width:256px;
+    background-color:#FFFFFF;
+}
+
+.movingBallG {
+    background-color:#FF9900;
+    position:absolute;
+    top:0;
+    left:0;
+    width:20px;
+    height:20px;
+    -moz-border-radius:10px;
+    -moz-animation-name:bounce_movingBallG;
+    -moz-animation-duration:2.1s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:linear;
+    -webkit-border-radius:10px;
+    -webkit-animation-name:bounce_movingBallG;
+    -webkit-animation-duration:2.1s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:linear;
+    -ms-border-radius:10px;
+    -ms-animation-name:bounce_movingBallG;
+    -ms-animation-duration:2.1s;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-direction:linear;
+    -o-border-radius:10px;
+    -o-animation-name:bounce_movingBallG;
+    -o-animation-duration:2.1s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:linear;
+    border-radius:10px;
+    animation-name:bounce_movingBallG;
+    animation-duration:2.1s;
+    animation-iteration-count:infinite;
+    animation-direction:linear;
+}
+
+@-moz-keyframes bounce_movingBallG {
+    0% {
+        left:0px;
+    }
+
+    50% {
+        left:236px;
+    }
+
+    100% {
+        left:0px;
+    }
+
+}
+
+@-webkit-keyframes bounce_movingBallG {
+    0% {
+        left:0px;
+    }
+
+    50% {
+        left:236px;
+    }
+
+    100% {
+        left:0px;
+    }
+
+}
+
+@-ms-keyframes bounce_movingBallG {
+    0% {
+        left:0px;
+    }
+
+    50% {
+        left:236px;
+    }
+
+    100% {
+        left:0px;
+    }
+
+}
+
+@-o-keyframes bounce_movingBallG {
+    0% {
+        left:0px;
+    }
+
+    50% {
+        left:236px;
+    }
+
+    100% {
+        left:0px;
+    }
+
+}
+
+@keyframes bounce_movingBallG {
+    0% {
+        left:0px;
+    }
+
+    50% {
+        left:236px;
+    }
+
+    100% {
+        left:0px;
+    }
+
+}
+
+#resultsTable {
+    font-size: 11px;
+}
+
+#ModalBrowseFiles .btn-danger {
+    margin-right: 10px;
+}
+
+.page_man-jplot .jumbotron li {
+    margin-bottom: 50px;
+}
+
+.page_man-jplot .jumbotron img {
+    max-width: 100%;
+}
+
+#nav {
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #707070;
+    line-height: 18px;    
+    margin-top: 30px ;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+#nav ul 
+{
+  margin: 0px;
+  padding: 0px;   
+  position: relative;
+  background-color: #ffffff;
+}
+
+#nav ul li {
+    margin: 0px;
+    padding: 1px 5px 1px 5px;
+    list-style: none;
+    white-space: nowrap;
+    display: block;
+    min-width: 80px;
+}
+
+#nav ul li:hover {
+    background: #E0E0E0;
+}
+#nav ul li a {
+    text-decoration: none;
+    color: #707070;
+    display: block;
+}
+
+#nav ul div
+{
+    display: none;
+    border-left: 1px solid #ccc;
+    position: relative;
+    left: 10%;
+    float: left;
+}
+
+
+#nav ul li:hover > div {
+    display: block;
+    right: 0px; 
+}
